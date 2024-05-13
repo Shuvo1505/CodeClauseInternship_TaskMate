@@ -1,0 +1,21 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "taskmate-74aba",
+          "appId": "1:718025483302:android:c52f6b60a6e300bbc7b2e7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "taskmate-74aba",
+          "configurations": {
+            "android": "1:718025483302:android:c52f6b60a6e300bbc7b2e7"
+          }
+        }
+      }
+    }
+  }
+}
