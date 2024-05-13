@@ -37,12 +37,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '<Your-API-Key>',
-    appId: '<Your-App-ID>',
-    messagingSenderId: '<Your-SENDER-ID>',
-    projectId: '<Your-Project-ID>',
-    databaseURL: '<Your-DB-URL>',
-    storageBucket: '<Your-Storage-Bucket>',
+    apiKey: 'AIzaSyDCX-sF8Tb1KN6mOAapEynoaOJbQsGkDes',
+    appId: '1:718025483302:android:c52f6b60a6e300bbc7b2e7',
+    messagingSenderId: '718025483302',
+    projectId: 'taskmate-74aba',
+    databaseURL: 'https://taskmate-74aba-default-rtdb.firebaseio.com',
+    storageBucket: 'taskmate-74aba.appspot.com',
   );
 
 }

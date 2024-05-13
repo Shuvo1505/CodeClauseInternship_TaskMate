@@ -18,7 +18,7 @@ Future<void> main() async {
 }
 
 class TaskMate extends StatelessWidget {
-  const TaskMate({Key? key}) : super(key: key);
+  const TaskMate({super.key});
 
   @override
   Widget build(BuildContext context) {
