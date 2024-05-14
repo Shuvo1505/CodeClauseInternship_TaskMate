@@ -90,7 +90,7 @@ class _SignupState extends State<SignupPage> {
               email: _emailEditingController.text,
               password: _passwordEditingController.text);
       notifyPositiveServerResponse();
-      await storage.write(key: 'uid', value: userCredential.user!.uid);
+      await storage.write(key: '<your-key>', value: userCredential.user!.uid);
       setState(() {
         circularProgress = false;
         activeLogin = true;
