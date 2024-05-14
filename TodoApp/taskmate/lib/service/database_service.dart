@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import '../model/todo.dart';
 
-const String todoCollectionRef = "usertasks";
-const String userCollectionRef = "homeusers";
+const String todoCollectionRef = "<your-ref>";
+const String userCollectionRef = "<your-ref>";
 
 class ToDoDataBase {
   final _firestore = FirebaseFirestore.instance;
