@@ -78,11 +78,11 @@ class UserAuthentication {
 
   Future<void> storeToken(UserCredential userCredential) async {
     await storage.write(
-        key: "token", value: userCredential.credential?.token.toString());
-    await storage.write(key: "credentials", value: userCredential.toString());
+        key: "", value: userCredential.credential?.token.toString());
+    await storage.write(key: "", value: userCredential.toString());
   }
 
   Future<String?> getToken() async {
-    return await storage.read(key: "token");
+    return await storage.read(key: "");
   }
 }
