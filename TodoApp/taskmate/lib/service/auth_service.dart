@@ -57,9 +57,9 @@ class UserAuthentication {
     try {
       await _googleSignIn.signOut();
       await _auth.signOut();
-      await storage.delete(key: "token");
-      await storage.delete(key: 'uid');
-      await storage.delete(key: 'loguid');
+      await storage.delete(key: "");
+      await storage.delete(key: '');
+      await storage.delete(key: '');
       if (context.mounted) {
         Navigator.pushAndRemoveUntil(
             context,
