@@ -1,4 +1,4 @@
-# taskmate
+# TaskMate
 
 A simple and efficient todo app developed in flutter.
 
