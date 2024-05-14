@@ -57,9 +57,9 @@ class UserAuthentication {
     try {
       await _googleSignIn.signOut();
       await _auth.signOut();
-      await storage.delete(key: "");
-      await storage.delete(key: '');
-      await storage.delete(key: '');
+      await storage.delete(key: '<your-key>');
+      await storage.delete(key: '<your-key>');
+      await storage.delete(key: '<your-key>');
       if (context.mounted) {
         Navigator.pushAndRemoveUntil(
             context,
@@ -78,11 +78,11 @@ class UserAuthentication {
 
   Future<void> storeToken(UserCredential userCredential) async {
     await storage.write(
-        key: "", value: userCredential.credential?.token.toString());
-    await storage.write(key: "", value: userCredential.toString());
+        key: "<your-key>", value: userCredential.credential?.token.toString());
+    await storage.write(key: "<your-key>", value: userCredential.toString());
   }
 
   Future<String?> getToken() async {
-    return await storage.read(key: "");
+    return await storage.read(key: "<your-key>");
   }
 }
