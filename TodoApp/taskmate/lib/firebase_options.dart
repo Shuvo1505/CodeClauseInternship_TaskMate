@@ -37,12 +37,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    databaseURL: '',
-    storageBucket: '',
+    apiKey: '<your-api-key>',
+    appId: '<your-appid>',
+    messagingSenderId: '<your-msgsenderid>',
+    projectId: '<your-projectid>',
+    databaseURL: '<your-databaseurl>',
+    storageBucket: '<your-stgbucket>',
   );
 
 }
