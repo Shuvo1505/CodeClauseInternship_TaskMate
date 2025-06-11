@@ -6,7 +6,7 @@
 # Features
 
 1) Cloud sync
-2) Create/Read/Update/Delete TODO
+2) Create/Read/Update/Delete Notes
 3) Optimized performance
 4) Independent storing capability
 5) Save seamlessly
